@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Width Background with Centered Content</title>
     <style>
-          header {
+        header {
             background-color: #f8f9fa;
             padding: 20px;
             text-align: center;
@@ -17,77 +18,100 @@
             text-decoration: none;
             color: #007bff;
         }
+
         .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: black;
-   text-align: center;
-}
-body {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: black;
+            text-align: center;
+        }
+
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0; height: 100%;
-            margin: 0; padding: 0; height: 100%; display: flex; flex-direction: column;
+            padding: 0;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
         }
 
         #padding-bottom {
             padding-bottom: 10px;
         }
+
+        .hover-underline {
+            color: black;
+            text-decoration: none;
+        }
+
+        .hover-underline:hover {
+            text-decoration: underline;
+        }
         
     </style>
 </head>
+
 <body style="">
 
     <header>
         <nav>
             <a href="index.html">Home</a>
-           
+
             <a href="whats-new.html">What's New</a>
         </nav>
     </header>
 
-    <main style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: yellow; padding: 0; box-sizing: border-box;">
+    <main
+        style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: yellow; padding: 0; box-sizing: border-box;">
         <div style="width: 100%; background-color: rgb(255, 255, 255); padding: 0; box-sizing: border-box;">
             <div style="width: 80%; margin: 0 auto; padding: 20px; box-sizing: border-box;">
                 <h1 style="margin: 0;" id="padding-bottom">What’s New</h1>
                 <p style="margin: 0;">Learn about all the new features, improvements, and fixes.</p>
-               
+
                 <div style="margin-top: 50px;">
-                <section style="display: flex; flex-direction: column; align-items: flex-start; width: 100%;">
-                    <div style="display: flex; align-items: center; width: 100%;">
-                        <h1 style="margin: 0;" id="padding-bottom">Wilter 0.0.0</h1>
-                        <time style="margin-left: 10px;">Jun. 20, 2024</time>
-                    </div>
-                    <ul style="margin: 0; padding-left: 20px; list-style-type: disc; list-style-position: outside; width: 80%;">
-                        <li style="margin: 0; padding-left: 0;">First public release.</li>
-                    </ul>
-                </section>
-            </div>
-                
-               
+                    <section style="display: flex; flex-direction: column; align-items: flex-start; width: 100%;">
+                        <div style="display: flex; align-items: center; width: 100%;">
+                            <h1 style="margin: 0;" id="padding-bottom">Wilter 0.0.0</h1>
+                            <time style="margin-left: 10px;">Jun. 20, 2024</time>
+                        </div>
+                        <ul
+                            style="margin: 0; padding-left: 20px; list-style-type: disc; list-style-position: outside; width: 80%;">
+                            <li style="margin: 0; padding-left: 0;">First public release.</li>
+                        </ul>
+                    </section>
+                </div>
+
+
             </div>
         </div>
 
-        <!-- <div style="width: 100%; background-color: rgb(240, 240, 240); padding: 0; box-sizing: border-box;">
+        <div style="width: 100%; background-color: rgb(240, 240, 240); padding: 0; box-sizing: border-box;">
             <div style="width: 80%; margin: 0 auto; padding: 20px; box-sizing: border-box;">
                 <h2 style="margin: 0;" id="padding-bottom">Support & Feedback</h2>
-                <p style="margin: 0;">If you have any questions, suggestions, feedback, a bug to report, or just want to send us some appreciation,
+                <p style="margin: 0;">If you have any questions, suggestions, feedback, a bug to report, or just want to
+                    send us some appreciation,
                     we are listening at hello@wilter.co.</p>
             </div>
-        </div> -->
+        </div>
     </main>
 
-  
+
     <div style=" position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: black;
     text-align: center;">
-        <p>© 2024 Wilter. All rights reserved.</p>
-      </div>
-
+        <p>
+            © 2024 Wilter. All rights reserved.
+            <a href="privacy-policy.html" class="hover-underline">Privacy Policy</a>
+        </p>
+    </div>
 </body>
+
 </html>
